@@ -1,22 +1,19 @@
 {
-  "name": "dpd-twilio",
-  "version": "0.1.5",
-  "description": "can send SMS via Twilio in deployd",
+  "name": "dpd-unirest",
+  "version": "0.1.0",
+  "description": "Send HTTP Request inside deployd events with Unirest",
   "main": "index.js",
-  "repository": "ericfong/dpd-twilio",
-  "author": "Eric Fong <ericff@gmail.com> (http://waatag.com/)",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "repository": "webninja101/dpd-unirest",
+  "author": "Netanel Edri <webninja101@gmail.com>",
   "keywords": [
     "dpd",
     "deployd",
     "dpdmodule",
-    "twilio",
-    "sms"
+    "unirest",
+    "http"
   ],
   "license": "ISC",
   "dependencies": {
-    "twilio": "^1.9.0"
+    "unirest": "^0.4.2"
   }
 }
